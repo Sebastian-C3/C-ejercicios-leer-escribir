@@ -22,7 +22,7 @@ int main()
 	printf("Ingrese cuantas tasas de te desea preparar\n");
 	scanf("%i", &cantTasas);
 
-	printf("Para preparar %i tasas necesita los siguientes ingredientes: \n", cantTasas);
+	printf("\nPara preparar %i tasas necesita los siguientes ingredientes: \n", cantTasas);
 	printf("Saquitos de te: %i \n", cantTasas*SAQUITO_TE);
 	printf("Azucar: %i cucharadas \n", cantTasas*CUCHARADA_AZUCAR);
 	printf("Agua: %iml", cantTasas*CANT_AGUA);
