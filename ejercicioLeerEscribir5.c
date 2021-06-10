@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define DIVISOR_BIT 8
+const int DIVISOR_BIT = 8;
 
 int main()
 {

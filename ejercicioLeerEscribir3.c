@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define CANT_ESTUDIANTES 15
+const int CANT_ESTUDIANTES = 15;
 
 int main()
 {

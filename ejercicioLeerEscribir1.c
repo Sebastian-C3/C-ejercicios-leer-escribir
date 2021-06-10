@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define ANIOS_TIERRA 7
+const int ANIOS_TIERRA = 7;
 
 int main(){
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define CANT_MESES 12
+const int CANT_MESES = 12;
 
 int main()
 {
@@ -9,6 +9,7 @@ int main()
 	int cantBolsas = 0;
 	float precioAlimento = 0;
 	char marcaAlimento [20] = "def_marca_alimento";
+
 
 	printf("Ingrese la marca del alimento\n");
 	scanf(" %[^\n]", &marcaAlimento);
