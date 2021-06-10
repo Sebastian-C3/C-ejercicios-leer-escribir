@@ -7,12 +7,12 @@ int main()
 	char emailUsuario[35] = "def_mail";
 
 	printf("Ingrese su nombre completo\n");
-	scanf(" %s", &nombreUsuario);
+	scanf(" %[^\n]", &nombreUsuario);
 
 	printf("Ingrese su email\n");
-	scanf(" %s", &emailUsuario);
+	scanf(" %[^\n]", &emailUsuario);
 
-	printf("%s \n", nombreUsuario);
+	// %[^\n] -- ^ indica tomar todos los caracteres hasta detectar un \n (salto de linea)
 
 	printf("Email del usuario %s : %s", nombreUsuario, emailUsuario);
 	return 0;
