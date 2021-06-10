@@ -11,7 +11,7 @@ int main()
 	char marcaAlimento [20] = "def_marca_alimento";
 
 	printf("Ingrese la marca del alimento\n");
-	scanf(" %s", &marcaAlimento);
+	scanf(" %[^\n]", &marcaAlimento);
 	printf("Ingrese el peso de la bolsa de alimento\n");
 	scanf("%i", &pesoAlimento);
 	printf("Ingrese el precio de la bolsa de alimento\n");
